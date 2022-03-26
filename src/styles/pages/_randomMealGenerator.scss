@@ -1,0 +1,37 @@
+.random-meal-generator__meal-image {
+    display: block;
+    border-radius: 25px;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: $s-size;
+}
+
+.random-meal-generator__large-container {
+    width: 85%;
+}
+
+.random-meal-generator__meal-title {
+    color: white;
+    font-size: $xl-size/2;
+    margin: 0;
+}
+
+.random-meal-generator__tab-container {
+    margin-top: $s-size;
+    margin-bottom: $s-size;
+    width: 100%;
+}
+
+.random-meal-generator__tab {
+    width: 30%;
+    border: 1px solid $off-white;
+    color: $off-white;
+    background-color: darken($dark-grey, 10%);
+    padding: 5px;
+}
+
+.random-meal-generator__tab:focus {
+    color: black;
+    background-color: $yellow;
+}

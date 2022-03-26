@@ -1,0 +1,14 @@
+.input {
+    background-color: $grey;
+    color: $off-white;
+    border-radius: 25px;
+    padding: 4px;
+    border: none;
+    margin-right: $s-size;
+    height: $s-size;
+}
+
+::placeholder {
+    color: $off-white;
+}
+

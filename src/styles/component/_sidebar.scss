@@ -1,0 +1,40 @@
+.sidebar {
+    min-height: 100vh;
+    width: 200px;
+    position: fixed;
+    float: left;
+    border-right: 2px solid $dark-grey;
+    background-color: black;
+}
+
+.sidebar__title {
+    font-weight: 600;
+    color: $yellow;
+    margin-bottom: $s-size;
+}
+
+.sidebar__list {
+    height: auto;
+    width: 70%;
+    padding-top: $m-size;
+    padding-left: $s-size;
+}
+
+.sidebar__text {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: $s-size/2;
+    color: $off-white;
+}
+
+.sidebar__list a {
+    color: $off-white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    max-width: 100px;
+    transition-duration: 0.5s;
+}
+
+.sidebar__list a:hover {
+    color: lighten($grey, 10%);
+}

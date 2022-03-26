@@ -1,0 +1,14 @@
+@import './base/settings';
+@import './base/base';
+
+@import './general/container';
+@import './general/text';
+@import './general/button';
+@import './general/input';
+
+@import './component/sidebar';
+@import './component/header';
+
+@import './pages/randomNumberGenerator';
+@import './pages/randomMealGenerator';
+

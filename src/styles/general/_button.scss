@@ -1,0 +1,46 @@
+//sizes
+.btn {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: $yellow;
+    border: none;
+    margin: 5px 5px 5px 0;
+    opacity: 1;
+    transition: 0.3s;
+    min-width: 40px;
+}
+
+.btn:hover {
+    background-color: $dark-grey;
+    color: $yellow;
+    border: 1px solid $yellow;
+}
+
+.btn:active {
+    opacity: 0.3;
+}
+
+.button--small {
+    font-size: 14px;
+}
+
+.button--medium {
+    font-size: 20px;
+}
+
+.button--large {
+    font-size: 26px;
+}
+
+.button--XL {
+    font-size: 40px;
+}
+
+.button--full {
+    width: 100%;
+    height: 80px;
+    border-radius: 2px;
+    border-bottom: 0.4rem solid darken($yellow, 10%);
+    margin-top: $m-size;
+    margin-bottom: $m-size;
+}

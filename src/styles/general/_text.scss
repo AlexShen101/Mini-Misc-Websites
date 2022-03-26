@@ -1,0 +1,21 @@
+.text {
+    color: $off-white;
+    margin-top: $s-size/2;
+    margin-bottom: $s-size/2;
+}
+
+.text--inline {
+    display: inline;
+    margin-right: $s-size;
+}
+
+.text--huge {
+    font-size: 10rem;
+    font-weight: 900;
+}
+
+.text--title {
+    color: $off-white;
+    margin: 0;
+    margin-bottom: $l-size;
+}
